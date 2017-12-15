@@ -1,0 +1,222 @@
+material "Enemy01_-_Default"
+{
+	technique Enemy01_-_Default_technique
+	{
+		pass Enemy01_-_Default_standard
+		{
+			ambient 1 0.00392157 0.00392157 1
+			diffuse 1 0.00392157 0.00392157 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique Enemy01_-_Default_basic_technique
+	{
+	scheme basic_mat
+		pass Enemy01_-_Default_standard
+		{
+			ambient 1 0.00392157 0.00392157 1
+			diffuse 1 0.00392157 0.00392157 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+		}
+	}
+}
+material "EnemyMaterial_22"
+{
+	technique EnemyMaterial_22_technique
+	{
+		pass EnemyMaterial_22_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique EnemyMaterial_22_basic_technique
+	{
+	scheme basic_mat
+		pass EnemyMaterial_22_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "EnemyMaterial_27"
+{
+	technique EnemyMaterial_27_technique
+	{
+		pass EnemyMaterial_27_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0 0 0 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique EnemyMaterial_27_basic_technique
+	{
+	scheme basic_mat
+		pass EnemyMaterial_27_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0 0 0 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "EnemyMaterial_25"
+{
+	technique EnemyMaterial_25_technique
+	{
+		pass EnemyMaterial_25_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique EnemyMaterial_25_basic_technique
+	{
+	scheme basic_mat
+		pass EnemyMaterial_25_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "EnemyMaterial_23"
+{
+	technique EnemyMaterial_23_technique
+	{
+		pass EnemyMaterial_23_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique EnemyMaterial_23_basic_technique
+	{
+	scheme basic_mat
+		pass EnemyMaterial_23_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+		}
+	}
+}
+material "EnemyMaterial_23_1"
+{
+	technique EnemyMaterial_23_1_technique
+	{
+		pass EnemyMaterial_23_1_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique EnemyMaterial_23_1_basic_technique
+	{
+	scheme basic_mat
+		pass EnemyMaterial_23_1_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+		}
+	}
+}
+material "EnemyMaterial_23_2"
+{
+	technique EnemyMaterial_23_2_technique
+	{
+		pass EnemyMaterial_23_2_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+			vertex_program_ref EnemyvsLightGEN
+			{
+			}
+			fragment_program_ref EnemyfpLightGEN
+			{
+			}
+		}
+	}
+	technique EnemyMaterial_23_2_basic_technique
+	{
+	scheme basic_mat
+		pass EnemyMaterial_23_2_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+		}
+	}
+}

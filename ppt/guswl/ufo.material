@@ -1,0 +1,100 @@
+material "UFOMaterial__34"
+{
+	technique UFOMaterial__34_technique
+	{
+		pass UFOMaterial__34_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend alpha_blend
+			depth_write off
+			vertex_program_ref UFOvsLightGEN0
+			{
+			}
+			fragment_program_ref UFOfpLightGENDIFF0
+			{
+			}
+
+			texture_unit UFOMaterial__34_Diffuse#0
+			{
+				texture ufo_diffuse.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+	technique UFOMaterial__34_basic_technique
+	{
+	scheme basic_mat
+		pass UFOMaterial__34_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit UFOMaterial__34_Diffuse#1
+			{
+				texture ufo_diffuse.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}
+material "UFOMaterial__40"
+{
+	technique UFOMaterial__40_technique
+	{
+		pass UFOMaterial__40_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend alpha_blend
+			depth_write off
+			vertex_program_ref UFOvsLightGEN0
+			{
+			}
+			fragment_program_ref UFOfpLightGENDIFF0
+			{
+			}
+
+			texture_unit UFOMaterial__40_Diffuse#0
+			{
+				texture ufo_diffuse.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+	technique UFOMaterial__40_basic_technique
+	{
+	scheme basic_mat
+		pass UFOMaterial__40_standard
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 25.5
+			emissive 0 0 0 1
+
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit UFOMaterial__40_Diffuse#1
+			{
+				texture ufo_diffuse.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}

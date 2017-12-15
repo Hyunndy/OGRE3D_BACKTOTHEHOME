@@ -1,0 +1,40 @@
+material "snowmanSnowman"
+{
+	technique snowmanSnowman_technique
+	{
+		pass snowmanSnowman_standard
+		{
+			shading phong
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 83.2374
+			emissive 0 0 0 1
+
+			texture_unit snowmanSnowman_Diffuse#0
+			{
+				texture Snowman.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+	technique snowmanSnowman_basic_technique
+	{
+	scheme basic_mat
+		pass snowmanSnowman_standard
+		{
+
+			shading phong
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			specular 0 0 0 0 83.2374
+			emissive 0 0 0 1
+			texture_unit snowmanSnowman_Diffuse#1
+			{
+				texture Snowman.png
+				tex_coord_set 0
+				colour_op modulate
+			}
+		}
+	}
+}

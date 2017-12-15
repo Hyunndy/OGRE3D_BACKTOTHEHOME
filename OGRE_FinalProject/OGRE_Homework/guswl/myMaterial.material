@@ -1,0 +1,72 @@
+
+material Examples/Snow
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1
+
+			texture_unit
+			{
+				texture snow.jpg
+			}
+		}
+	}
+}
+
+material Examples/Green
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1
+
+			texture_unit
+			{
+				texture green.png
+			}
+		}
+	}
+}
+
+
+material Examples/ClearSky
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture background.jpg background.jpg background.jpg background.jpg background.jpg background.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+ 
+
+material bgui.window
+{
+ technique
+ {
+  pass
+  {
+   lighting off
+   ambient 1 1 1
+   diffuse 1 1 1
+   specular 1 1 1 30
+   scene_blend alpha_blend
+   texture_unit
+   {
+    texture quest.png
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+App/Profile
+{
+ zorder 500
+ container BorderPanel(Profile/Border)
+ {
+  metrics_mode relative
+  vert_align center
+  horz_align top
+  left -0.14
+  top  -0.2
+  width 0.3
+  height 0.3
+  material  bgui.window
+  
+  element TextArea(Profile/Text)
+  {
+   metrics_mode pixels
+   left 25
+   top 5
+   width 90
+   height 30
+   font_name TrebuchetMSBold
+   char_height 18
+   caption Profile : 
+   colour_top    0 0 0
+   colour_bottom 0 0 0 
+  }
+ }
+}

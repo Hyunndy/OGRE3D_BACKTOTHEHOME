@@ -1,0 +1,90 @@
+material "Tree_BlenderNatureAssetMaterial_008"
+{
+	technique Tree_BlenderNatureAssetMaterial_008_technique
+	{
+		pass Tree_BlenderNatureAssetMaterial_008_standard
+		{
+			ambient 0 0 0 1
+			diffuse 0.039765 0.043584 0.021857 1
+			specular 0.5 0.5 0.5 1 245
+			emissive 0 0 0 1
+			vertex_program_ref TreevsLightGEN
+			{
+			}
+			fragment_program_ref TreefpLightGEN
+			{
+			}
+		}
+	}
+	technique Tree_BlenderNatureAssetMaterial_008_basic_technique
+	{
+	scheme basic_mat
+		pass Tree_BlenderNatureAssetMaterial_008_standard
+		{
+			ambient 0 0 0 1
+			diffuse 0.039765 0.043584 0.021857 1
+			specular 0.5 0.5 0.5 1 245
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Tree_BlenderNatureAssetMaterial_009"
+{
+	technique Tree_BlenderNatureAssetMaterial_009_technique
+	{
+		pass Tree_BlenderNatureAssetMaterial_009_standard
+		{
+			ambient 0 0 0 1
+			diffuse 0.042089 0.064009 0.004425 1
+			specular 0.5 0.5 0.5 1 245
+			emissive 0 0 0 1
+			vertex_program_ref TreevsLightGEN
+			{
+			}
+			fragment_program_ref TreefpLightGEN
+			{
+			}
+		}
+	}
+	technique Tree_BlenderNatureAssetMaterial_009_basic_technique
+	{
+	scheme basic_mat
+		pass Tree_BlenderNatureAssetMaterial_009_standard
+		{
+			ambient 0 0 0 1
+			diffuse 0.042089 0.064009 0.004425 1
+			specular 0.5 0.5 0.5 1 245
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Tree_BlenderNatureAssetsnow"
+{
+	technique Tree_BlenderNatureAssetsnow_technique
+	{
+		pass Tree_BlenderNatureAssetsnow_standard
+		{
+			ambient 0 0 0 1
+			diffuse 0.611419 0.583597 0.64 1
+			specular 0.5 0.5 0.5 1 245
+			emissive 0 0 0 1
+			vertex_program_ref TreevsLightGEN
+			{
+			}
+			fragment_program_ref TreefpLightGEN
+			{
+			}
+		}
+	}
+	technique Tree_BlenderNatureAssetsnow_basic_technique
+	{
+	scheme basic_mat
+		pass Tree_BlenderNatureAssetsnow_standard
+		{
+			ambient 0 0 0 1
+			diffuse 0.611419 0.583597 0.64 1
+			specular 0.5 0.5 0.5 1 245
+			emissive 0 0 0 1
+		}
+	}
+}

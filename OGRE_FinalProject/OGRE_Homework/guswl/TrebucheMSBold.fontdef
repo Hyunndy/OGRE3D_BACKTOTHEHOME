@@ -1,0 +1,11 @@
+TrebuchetMSBold
+{
+	// Now this one I agree with ;)
+	// A Star Wars font :)
+	type 		truetype
+	source 		TrebuchetMSBold.ttf
+	size 		16
+	resolution 	96
+}
+
+

@@ -1,0 +1,14 @@
+material "boyMaterial_53"
+{
+	technique boyMaterial_53_technique
+	{
+		pass boyMaterial_53_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.72549 0.478431 0.337255 1
+			specular 0.219608 0.219608 0.219608 1 152.344
+			emissive 0 0 0 1
+		}
+	}
+}

@@ -1,0 +1,256 @@
+material "Boy2Material_26"
+{
+	technique Boy2Material_26_technique
+	{
+		pass Boy2Material_26_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.678431 0.905882 0.380392 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_26_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_26_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.678431 0.905882 0.380392 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_21"
+{
+	technique Boy2Material_21_technique
+	{
+		pass Boy2Material_21_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.678431 0.905882 0.380392 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_21_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_21_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.678431 0.905882 0.380392 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_27"
+{
+	technique Boy2Material_27_technique
+	{
+		pass Boy2Material_27_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0 0 0 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_27_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_27_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0 0 0 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_22"
+{
+	technique Boy2Material_22_technique
+	{
+		pass Boy2Material_22_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_22_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_22_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_25"
+{
+	technique Boy2Material_25_technique
+	{
+		pass Boy2Material_25_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_25_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_25_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.00392157 0.698039 0.803922 1
+			specular 0.2 0.2 0.2 1 143.205
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_23"
+{
+	technique Boy2Material_23_technique
+	{
+		pass Boy2Material_23_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_23_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_23_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_23_1"
+{
+	technique Boy2Material_23_1_technique
+	{
+		pass Boy2Material_23_1_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_23_1_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_23_1_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+		}
+	}
+}
+material "Boy2Material_23_2"
+{
+	technique Boy2Material_23_2_technique
+	{
+		pass Boy2Material_23_2_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+			vertex_program_ref Boy2vsLightGEN
+			{
+			}
+			fragment_program_ref Boy2fpLightGEN
+			{
+			}
+		}
+	}
+	technique Boy2Material_23_2_basic_technique
+	{
+	scheme basic_mat
+		pass Boy2Material_23_2_standard
+		{
+			shading phong
+			ambient 0.2 0.2 0.2 1
+			diffuse 0.498039 0.498039 0.498039 1
+			specular 0 0 0 1 172.002
+			emissive 0 0 0 1
+		}
+	}
+}
