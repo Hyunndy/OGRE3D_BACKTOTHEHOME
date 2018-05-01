@@ -1,17 +1,17 @@
 ﻿  TutorialApplication.cpp
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(515): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(575): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(708): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(737): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1492): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1494): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1501): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1507): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1513): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1552): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1554): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1561): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1568): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-c:\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1575): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
-  OGRE_Homework.vcxproj -> C:\OGRE_FinalProject\Debug\OGRE_Homework.exe
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(515): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(575): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(708): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(737): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1492): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1494): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1501): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1507): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1513): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1552): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1554): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1561): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1568): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+c:\users\user\documents\github\ogre3d_backtothehome\ogre_finalproject\ogre_homework\tutorialapplication.cpp(1575): warning C4305: '인수' : 'double'에서 'Ogre::Real'(으)로 잘립니다.
+  OGRE_Homework.vcxproj -> C:\Users\user\Documents\GitHub\OGRE3D_BACKTOTHEHOME\OGRE_FinalProject\Debug\OGRE_Homework.exe
           1개 파일이 복사되었습니다.

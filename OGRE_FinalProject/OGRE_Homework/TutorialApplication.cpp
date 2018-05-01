@@ -447,7 +447,7 @@ bool TutorialApplication::go(void)
 
 
 	//스카이박스
-	mSceneMgr->setSkyBox(true, "Examples/ClearSky", 5000);
+	mSceneMgr->setSkyBox(true, "guswl/ClearSky", 5000);
 
 	//Plane 객체 셍성
 	Ogre::Plane plane(Ogre::Vector3::UNIT_Y,-10);
@@ -456,7 +456,7 @@ bool TutorialApplication::go(void)
 
 	//Plane1
 	Ogre::Entity* PlaneEnt = mSceneMgr->createEntity("PlaneEnt", "plane");
-	PlaneEnt->setMaterialName("Examples/Snow");
+	PlaneEnt->setMaterialName("guswl/Snow");
 	Ogre::SceneNode* PlaneNode = mSceneMgr->getRootSceneNode()->createChildSceneNode("PlaneNode");
 
 	PlaneNode->attachObject(PlaneEnt);
@@ -465,7 +465,7 @@ bool TutorialApplication::go(void)
 	//Plane2
 	Ogre::Entity* PlaneEnt2 = mSceneMgr->createEntity("PlaneEnt2", "plane");
 	Ogre::SceneNode* PlaneNode2 = mSceneMgr->getRootSceneNode()->createChildSceneNode("PlaneNode2");
-	PlaneEnt2->setMaterialName("Examples/Snow");
+	PlaneEnt2->setMaterialName("guswl/Snow");
 	PlaneNode2->attachObject(PlaneEnt2);
 	PlaneNode2->setPosition(0,0,-1100);
 	PlaneEnt2->setCastShadows(FALSE);
@@ -473,7 +473,7 @@ bool TutorialApplication::go(void)
 	//Plane3 //스테이지2
 	Ogre::Entity* PlaneEnt3 = mSceneMgr->createEntity("PlaneEnt3", "plane");
 	Ogre::SceneNode* PlaneNode3 = mSceneMgr->getRootSceneNode()->createChildSceneNode("PlaneNode3");
-	PlaneEnt3->setMaterialName("Examples/Snow");
+	PlaneEnt3->setMaterialName("guswl/Snow");
 	PlaneNode3->attachObject(PlaneEnt3);
 	PlaneNode3->setPosition(0,0,-1700);
 	PlaneEnt3->setCastShadows(FALSE);
@@ -481,7 +481,7 @@ bool TutorialApplication::go(void)
 	//Plane4 // 스테이지2
 	Ogre::Entity* PlaneEnt4 = mSceneMgr->createEntity("PlaneEnt4","plane");
 	Ogre::SceneNode* PlaneNode4 = mSceneMgr->getRootSceneNode()->createChildSceneNode("PlaneNode4");
-	PlaneEnt4->setMaterialName("Examples/Snow");
+	PlaneEnt4->setMaterialName("guswl/Snow");
 	PlaneNode4->attachObject(PlaneEnt4);
 	PlaneNode4->setPosition(0,0,-2800);
 	PlaneEnt4->setCastShadows(FALSE);
@@ -492,7 +492,7 @@ bool TutorialApplication::go(void)
 
 	//Water1
 	Ogre::Entity* WaterEnt = mSceneMgr->createEntity("WaterEnt", "water");
-	WaterEnt->setMaterialName("Examples/WaterStream");
+	WaterEnt->setMaterialName("guswl/WaterStream");
 	Ogre::SceneNode* WaterNode = mSceneMgr->getRootSceneNode()->createChildSceneNode("WaterNode");
 	WaterNode->attachObject(WaterEnt);
 	WaterNode->setPosition(0,0,-550);
@@ -500,7 +500,7 @@ bool TutorialApplication::go(void)
 
 	//Water2
 	Ogre::Entity* WaterEnt2 = mSceneMgr->createEntity("WaterEnt2", "water");
-	WaterEnt2->setMaterialName("Examples/WaterStream");
+	WaterEnt2->setMaterialName("guswl/WaterStream");
 	Ogre::SceneNode* WaterNode2 = mSceneMgr->getRootSceneNode()->createChildSceneNode("WaterNode2");
 	WaterNode2->attachObject(WaterEnt2);
 	WaterNode2->setPosition(0,0,-2250);
@@ -516,9 +516,9 @@ bool TutorialApplication::go(void)
 
 	
 	//눈사람 이펙트
-	snow = mSceneMgr->createParticleSystem("Snow1", "Examples/PurpleFountain");
-	snow2 = mSceneMgr->createParticleSystem("Snow2", "Examples/PurpleFountain");
-	snow3 = mSceneMgr->createParticleSystem("Snow3", "Examples/PurpleFountain");
+	snow = mSceneMgr->createParticleSystem("Snow1", "guswl/PurpleFountain");
+	snow2 = mSceneMgr->createParticleSystem("Snow2", "guswl/PurpleFountain");
+	snow3 = mSceneMgr->createParticleSystem("Snow3", "guswl/PurpleFountain");
 	Ogre::SceneNode* snowEffectNode = PlaneNode->createChildSceneNode("SnowEffect"); 
 	Ogre::SceneNode* snowEffectNode2 =  PlaneNode->createChildSceneNode("SnowEffect2"); 
 	Ogre::SceneNode* snowEffectNode3 =  PlaneNode->createChildSceneNode("SnowEffect3"); 
@@ -589,7 +589,7 @@ bool TutorialApplication::go(void)
 
 
 	//불꽃놀이 이펙트
-	fireworkeffect = mSceneMgr->createParticleSystem("firework", "Examples/Fireworks");
+	fireworkeffect = mSceneMgr->createParticleSystem("firework", "guswl/Fireworks");
 	Ogre::SceneNode* fireworkNode = PlaneNode->createChildSceneNode("fireworkNode");
 	fireworkNode->setPosition(0,15,-1500);
 	mSceneMgr->getSceneNode("fireworkNode")->attachObject(fireworkeffect);	
@@ -605,7 +605,7 @@ bool TutorialApplication::go(void)
 	EnemyNode->attachObject(EnemyEnt);	
 
 	//물고기 이펙트
-	enemyeffect[0] = mSceneMgr->createParticleSystem("Nimbus", "Examples/GreenyNimbus");	
+	enemyeffect[0] = mSceneMgr->createParticleSystem("Nimbus", "guswl/GreenyNimbus");	
 	Ogre::SceneNode* EnemyEffectNode = PlaneNode->createChildSceneNode("EnemyEffect");
 
 	//스테이지2 물고기
@@ -617,7 +617,7 @@ bool TutorialApplication::go(void)
 	EnemyNode_2->attachObject(EnemyEnt_2);		
 
 	//스테이지2 물고기 이펙트
-	enemyeffect_2[0] = mSceneMgr->createParticleSystem("Nimbus_2", "Examples/GreenyNimbus");	
+	enemyeffect_2[0] = mSceneMgr->createParticleSystem("Nimbus_2", "guswl/GreenyNimbus");	
 	Ogre::SceneNode* EnemyEffectNode_2 = PlaneNode3->createChildSceneNode("EnemyEffect_2");
 
 	//물고기2
@@ -630,7 +630,7 @@ bool TutorialApplication::go(void)
 
 
 	//물고기 이펙트2
-	enemyeffect[1] = mSceneMgr->createParticleSystem("Nimbus2", "Examples/GreenyNimbus");	
+	enemyeffect[1] = mSceneMgr->createParticleSystem("Nimbus2", "guswl/GreenyNimbus");	
 	Ogre::SceneNode* Enemy2EffectNode = PlaneNode->createChildSceneNode("Enemy2Effect");
 
 	//스테이지2 물고기2
@@ -642,7 +642,7 @@ bool TutorialApplication::go(void)
 	Enemy2Node_2->attachObject(Enemy2Ent_2);		
 
 	//스테이지2 물고기2 이펙트
-	enemyeffect_2[1] = mSceneMgr->createParticleSystem("Nimbus2_2", "Examples/GreenyNimbus");	
+	enemyeffect_2[1] = mSceneMgr->createParticleSystem("Nimbus2_2", "guswl/GreenyNimbus");	
 	Ogre::SceneNode* Enemy2EffectNode_2 = PlaneNode3->createChildSceneNode("Enemy2Effect_2");
 
 	//물고기3
@@ -654,7 +654,7 @@ bool TutorialApplication::go(void)
 	Enemy3Node->attachObject(Enemy3Ent);	
 
 	//물고기 이펙트3
-	enemyeffect[2] = mSceneMgr->createParticleSystem("Nimbus3", "Examples/GreenyNimbus");	
+	enemyeffect[2] = mSceneMgr->createParticleSystem("Nimbus3", "guswl/GreenyNimbus");	
 	Ogre::SceneNode* Enemy3EffectNode = PlaneNode->createChildSceneNode("Enemy3Effect");
 
 	//스테이지2 물고기3
@@ -666,7 +666,7 @@ bool TutorialApplication::go(void)
 	Enemy3Node_2->attachObject(Enemy3Ent_2);		
 
 	//스테이지2 물고기3 이펙트
-	enemyeffect_2[2] = mSceneMgr->createParticleSystem("Nimbus3_2", "Examples/GreenyNimbus");	
+	enemyeffect_2[2] = mSceneMgr->createParticleSystem("Nimbus3_2", "guswl/GreenyNimbus");	
 	Ogre::SceneNode* Enemy3EffectNode_2 = PlaneNode3->createChildSceneNode("Enemy3Effect_2");
 
 
@@ -701,7 +701,7 @@ bool TutorialApplication::go(void)
 	// 스테이지2 입구 앞의 총알
 	Ogre::Entity * newBullet = mSceneMgr->createEntity("NewBulletEnt", "sphere.mesh");
 	Ogre::SceneNode* newBulletNode = PlaneNode3->createChildSceneNode("newBulletNode");
-	newBullet->setMaterialName("Examples/Green");
+	newBullet->setMaterialName("guswl/Green");
 
 
 	newBulletNode->setPosition(0, 40, 140);
@@ -869,7 +869,7 @@ void TutorialApplication::CreateBullet()
 	  Ogre::Vector3 CartLocation = mSceneMgr->getSceneNode("Cart")->getPosition();
 	  pNewBullet->bEntity = mSceneMgr->createEntity(szId, "sphere.mesh");	  
 
-	  pNewBullet->bEntity->setMaterialName("Examples/Green");
+	  pNewBullet->bEntity->setMaterialName("guswl/Green");
 	  pNewBullet->bSceneNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
 	 
 	  pNewBullet->bBox = pNewBullet->bEntity->getWorldBoundingBox();
